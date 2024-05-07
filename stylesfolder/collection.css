@@ -1,0 +1,280 @@
+
+
+body{
+    background-color: black;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-bottom: 6rem;
+    overflow-x: hidden;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+   margin-top: -10px;
+   margin-left: -10px;
+    overflow: hidden;
+    background-color: #161616;
+    width: 96vw;
+  }
+  
+  li {
+    float: left;
+    font-size: 16px;
+  }
+ 
+  li a, .dropbtn {
+    display: inline-block;
+    color: #E8CF36;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #E8CF36;
+    color: #222222;
+    border-radius: 5px;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222222;
+    min-width: 160px;
+    height: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #e0ca3bbd; border-radius: 30px; color: #fff;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  header{
+    background: url('../images/blackjewlry.jpg') rgb(0, 0, 0) 50% / contain no-repeat;
+    border-radius: 2px;
+   display: flex;
+   gap: 160px;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 500px;
+  }
+
+h1{
+    text-align: center;
+    color:white;
+    text-decoration: underline #E8CF36;
+}
+
+
+div{
+   height: 150%;
+    width: 25%;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    margin: 6px;
+}
+img{
+    
+    width:100% ;
+    height: 250PX;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+.productitem{
+    border: 2px solid white;
+    margin: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #E8CF36;
+    
+}
+
+
+h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    color:#E8CF36;
+    text-decoration: underline #E8CF36;
+    font-size: 40px;
+}
+
+
+div{
+   height: 150%;
+    width: 25%;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    margin: 7px;
+}
+img{
+    
+    width:100% ;
+    height: 250PX;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+h2{
+    color: #E8CF36;
+}
+ 
+
+/* animate */
+.div1{
+    color: aliceblue;
+    background-color:black;
+}
+
+.text{
+    letter-spacing: 4px;
+    margin-bottom: 80px;
+    word-spacing: 20px;
+    margin-left: -200px;
+    width: 50vw;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(255, 215, 55);
+    transform: translateY(20px) scale(1,5) ;
+    animation-direction: reverse;
+}
+.div1{
+    margin-top: 60px;
+}
+.empire{
+    display: inline-block;
+    animation-name: mymove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+.dimond{
+    display: inline-block;
+    animation-name: mymove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+.Classic{
+    display: inline-block;
+    animation-name: mymove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+    
+}
+.jewelry{
+    display: inline-block;
+    animation-name: mymove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+@keyframes mymove {
+    0%{
+        transform: translatex(0px);
+    }
+
+    50%{
+        transform: translatex(100px);
+    }
+    
+    100%{
+        transform: translatex(0);
+    }
+    
+
+    
+  }
+  @media (max-width:800px) {
+    .div1{
+        display: none;
+    }
+  }
+
+
+  @media (max-width:580px) {
+    section{
+        display: grid;
+        margin: auto;
+        row-gap: 100px;
+    }
+  div{
+        margin: auto;
+        margin-top: 50px;
+        width: 60%;
+        height: auto;
+    }
+  }
+
+
+
+  footer{
+    background-color: #131313;
+    width: 100vw;
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+h6{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #E8CF36;
+}
+  .fa-brands{
+    color: #E8CF36;
+    font-size: 60px;
+    padding-left: 20px;
+  }
+  
