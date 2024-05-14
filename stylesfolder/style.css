@@ -1294,6 +1294,12 @@ hr{
 .cartsp2{
   width: 100px;
 }
+.slide2-text{
+  left: 40px;
+ }
+ .animatin2{
+  animation: none;
+ }
 }
 
 @media (max-width:400px) {
@@ -1305,14 +1311,9 @@ hr{
   display: none;
  }
  
- .slide2-text{
-  left: 80px;
- }
- .animatin2{
-  animation: none;
- }
+
  .box-container1:hover {
-  box-shadow: 0px 0px 20px 10px rgba(255, 204, 0, 0.684);
+  box-shadow: 0px 0px 20px 10px rgba(153, 187, 231, 0.684);
   transform: translateY(-15px);
   padding: 20px;
 }
