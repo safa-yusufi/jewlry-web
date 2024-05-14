@@ -1285,3 +1285,14 @@ hr{
 }
 }
 
+@media (max-width:400px) {
+  .giftp2 , .stotrep2{
+    padding: 150px;
+  }
+ .category_content{
+  display: none;
+ }
+ .mygrid{
+  display: none;
+ }
+}
