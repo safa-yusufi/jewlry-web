@@ -497,7 +497,18 @@ img {vertical-align: middle;}
   line-height: 21px; /* 150% */
   text-transform: uppercase;
 }
-
+/* new anomation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.productsbottom:hover {
+  animation: fade-in 0.5s ease-in-out;
+}
 /* products */
 main{
   width: 100%;
@@ -1289,10 +1300,12 @@ hr{
   .giftp2 , .stotrep2{
     padding: 150px;
   }
- .category_content{
-  display: none;
- }
+
  .mygrid{
   display: none;
+ }
+ 
+ .slide2-text{
+  left: 80px;
  }
 }
